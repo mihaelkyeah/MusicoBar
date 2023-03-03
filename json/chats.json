@@ -1,0 +1,89 @@
+[
+    {
+        "name":"Heraldo Ordóñez",
+        "picture": "heraldo_ordonez.png",
+        "title": "Triangulista",
+        "status": "offline",
+        "received": [
+            {
+                "text": "Hola",
+                "delivered": true,
+                "read": true,
+                "time": 20230203175600
+            },
+            {
+                "text": "q onda?",
+                "delivered": true,
+                "read": true,
+                "time": 20230203180500
+            },
+            {
+                "text": "ni idea",
+                "delivered": true,
+                "read": true,
+                "time": 20230203190200
+            },
+            {
+                "text": "sarasa",
+                "delivered": true,
+                "read": false,
+                "time": 20230302123500
+            },
+            {
+                "text": "algo",
+                "delivered": true,
+                "read": false,
+                "time": 20230302124000
+            }
+        ],
+        "sent": [
+            [
+                {
+                    "text": "Hola",
+                    "delivered": true,
+                    "read": true,
+                    "time": 20230203175400
+                },
+                {
+                    "text": "el Charra pasó a buscar los platos?",
+                    "delivered": true,
+                    "read": true,
+                    "time": 20230203180700
+                },
+                {
+                    "text": "bueno ahí lo llamo",
+                    "delivered": true,
+                    "read": true,
+                    "time": 20230203201200
+                }
+               
+            ]
+        ]
+    },
+    {
+        "name":"Ray Charles",
+        "picture": "ray_charles.png",
+        "title": "Cantante, pianista",
+        "status": "online",
+        "received": [
+            {
+                "text": "Sasarasa",
+                "time": 20230102234427
+            },
+            {
+                "text": "Lorem input",
+                "time": 20230102234550
+            }
+        ],
+        "sent": [
+            {
+                "text": "Sosoroso",
+                "time": 20230102234425
+            },
+            {
+                "text": "Seserese",
+                "time": 20230102234430
+            }
+        ]
+    }
+]
