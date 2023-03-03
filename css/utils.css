@@ -2,6 +2,34 @@
 /* so as not to need Bootstrap or other such frameworks for general purpose stuff... */
 /* by MihaelkYeah */
 
+/* ===== Variables ===== */
+:root {
+    /* ----- Colors ----- */
+    --white: #eee;
+    --light-gray-1: #ccc;
+    --light-gray-2: #aaa;
+    --gray: #777;
+    --dark-gray-1: #555;
+    --dark-gray-2: #333;
+    --black: #111;
+
+    --red: #C22;
+    --orange: #C52;
+    --yellow: #CA1;
+    --green: #192;
+    --blue: #13C;
+    --pink: #C18;
+    
+    --bordeaux: #611;
+    --brown: #631;
+    --beige: #A72;
+    --emerald: #195;
+    --turquoise: #168;
+    --purple: #81A;
+    --violet: #52C;
+    --indigo: #218;
+}
+
 /* ===== Buttons ===== */
 
 .button {
@@ -50,6 +78,7 @@
 .align-items-flex-end { align-items: flex-end }
 .align-items-start { align-items: start }
 .align-items-end { align-items: end }
+.align-items-center { align-items: center }
 .align-items-normal { align-items: normal }
 .align-items-safe { align-items: safe }
 .align-items-unsafe { align-items: unsafe }

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name":"Heraldo Ordóñez",
+        "picture": "heraldo_ordonez.png",
+        "title": "Triangulista",
+        "friends": true,
+        "status": "offline"
+    },
+    {
+        "id": 2,
+        "name":"Ray Charles",
+        "picture": "ray_charles.jpg",
+        "title": "Cantante, pianista",
+        "friends": true,
+        "status": "online"
+    },
+    {
+        "id": 3,
+        "name":"Burton Bell",
+        "picture": "burton_bell.jpg",
+        "title": "Cantante",
+        "friends": true,
+        "status": "offline"
+    },
+    {
+        "id": 4,
+        "name":"Michiru Yamane",
+        "picture": "michiru_yamane.jpg",
+        "title": "Pianista",
+        "friends": true,
+        "status": "online"
+    },
+    {
+        "id": 5,
+        "name":"Lucho Estévez",
+        "picture": "lucho_estevez.png",
+        "title": "Letrista",
+        "friends": true,
+        "status": "offline"
+    },
+    {
+        "id": 6,
+        "name":"El Señor Sosoroso",
+        "picture": "senior_sosoroso.png",
+        "title": "Plungofonista",
+        "friends": true,
+        "status": "offline"
+    },
+    {
+        "id": 7,
+        "name":"Señor Juan Pérez",
+        "picture": "default.svg",
+        "title": "Teclafonista",
+        "friends": false,
+        "status": "offline"
+    },
+    {
+        "id": 8,
+        "name":"Señora Sosorosa",
+        "picture": "default.svg",
+        "title": "Fonoaudióloga",
+        "friends": false,
+        "status": "offline"
+    }
+]

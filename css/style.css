@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.user-avatar {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.user-avatar.heraldo {
+    object-fit: fill;
+}
+.chatbox.user-avatar {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+#navbar {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.search-bar {
+    border-radius: 1em;
+    border: inset #77777777 1.25pt;
+    padding: 0.25rem 1.25rem;
+}
+#navbar .search-bar {
+    width: 35vw;
+    height: 1.5rem;
+}
+
+#navbar-menu.invisible {
+    display: none;
+}
+
+#sidebar-left, #sidebar-right {
+    width: 16rem;
+    height: 100vh;
+}
+
+#index-chats-container {
+    width: 90vw;
+    position: fixed;
+    bottom: 0;
+    overflow-x: scroll;
+    overflow-y: none;
+}
+
+@media screen and (max-width: 800px) {
+    #sidebar-left, #sidebar-right, #index-chats-container {
+        display: none !important;
+    }
+}

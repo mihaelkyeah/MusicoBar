@@ -1,9 +1,6 @@
 [
     {
-        "name":"Heraldo Ordóñez",
-        "picture": "heraldo_ordonez.png",
-        "title": "Triangulista",
-        "status": "offline",
+        "user_id": 1,
         "received": [
             {
                 "text": "Hola",
@@ -61,27 +58,32 @@
         ]
     },
     {
-        "name":"Ray Charles",
-        "picture": "ray_charles.png",
-        "title": "Cantante, pianista",
-        "status": "online",
+        "user_id": 2,
         "received": [
             {
                 "text": "Sasarasa",
+                "delivered": true,
+                "read": true,
                 "time": 20230102234427
             },
             {
                 "text": "Lorem input",
+                "delivered": true,
+                "read": false,
                 "time": 20230102234550
             }
         ],
         "sent": [
             {
                 "text": "Sosoroso",
+                "delivered": true,
+                "read": true,
                 "time": 20230102234425
             },
             {
                 "text": "Seserese",
+                "delivered": true,
+                "read": true,
                 "time": 20230102234430
             }
         ]

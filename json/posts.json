@@ -1,0 +1,71 @@
+[
+    {
+        "user_id": 1,
+        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
+        "reactions": [
+            {
+                "type": "👍",
+                "users": [1,2,3]
+            },
+            {
+                "type": "😯",
+                "users": [4,5,6,7,8]
+            }
+        ],
+        "comments": []
+    },
+    {
+        "user_id": 6,
+        "text": "El mejor sonido sasarasa es el Walburgsmennheiser K58 Pro.",
+        "reactions": [
+            {
+                "type": "👍",
+                "users": [1,2,3]
+            },
+            {
+                "type": "😂",
+                "users": [5,8]
+            },
+            {
+                "type": "😡",
+                "users": [4,7]
+            }
+        ],
+        "comments": [
+            {
+                "user_id": 4,
+                "text": "Mentira. Es el Sinsirinsing S68 Technic.",
+                "reactions": [
+                    {
+                        "type": "😯",
+                        "users": [6]
+                    }
+                ],
+                "comments": [
+                    {
+                        "user_id": 6,
+                        "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
+                        "reactions": [],
+                        "comments": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user_id": 7,
+        "text": "Lorem input",
+        "reactions": [
+            {
+                "type": "👍",
+                "users": [2,3]
+            },
+            {
+                "type": "😯",
+                "users": [1,4]
+            }
+        ],
+        "comments": [
+        ]
+    }
+]
