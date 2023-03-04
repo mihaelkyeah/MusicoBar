@@ -1,5 +1,5 @@
-#MusicoBar
-##La red social de los músicos
+# MusicoBar
+## La red social de los músicos
 
 Red social basada en Facebook y MySpace para músicos. #kepicardia
 
@@ -15,6 +15,6 @@ Tiene una sección principal de "noticias" y en cada publicación y comentario s
 
 https://emojipedia.org/facebook/
 
-###Agradecimientos especiales
+### Agradecimientos especiales
 
 A mis compañeros de la facultad :)
