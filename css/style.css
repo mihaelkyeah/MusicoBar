@@ -1,6 +1,30 @@
 body {
     margin: 0;
     padding: 0;
+    background: var(--white);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.post-container {
+
+    background: var(--bright-white);
+    border-radius: 0.5em;
+    width: 90%;
+    margin: 1em auto;
+    padding: 1rem;
+}
+
+.post.user-avatar {
+    height: 3em;
+    width: 3em;
+}
+.post-reactions-container {
+    width: 100%;
+    border-top: 1pt solid #cccccc77;
+    padding-top: 0.5em;
+}
+.post.reaction:not(:last-child) {
+    border-right: 1pt solid #cccccc77;
 }
 
 .user-avatar {
@@ -39,6 +63,9 @@ body {
     width: 16rem;
     height: 100vh;
 }
+#feed {
+    width: calc(100vw - 32rem);
+}
 
 #index-chats-container {
     width: 90vw;
@@ -51,5 +78,8 @@ body {
 @media screen and (max-width: 800px) {
     #sidebar-left, #sidebar-right, #index-chats-container {
         display: none !important;
+    }
+    #feed {
+        width: 100vw;
     }
 }

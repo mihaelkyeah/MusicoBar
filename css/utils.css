@@ -5,6 +5,7 @@
 /* ===== Variables ===== */
 :root {
     /* ----- Colors ----- */
+    --bright-white: #fafafa;
     --white: #eee;
     --light-gray-1: #ccc;
     --light-gray-2: #aaa;

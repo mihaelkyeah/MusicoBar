@@ -41,12 +41,11 @@
                         "users": [6]
                     }
                 ],
-                "comments": [
+                "replies": [
                     {
                         "user_id": 6,
                         "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit",
-                        "reactions": [],
-                        "comments": []
+                        "reactions": []
                     }
                 ]
             }
